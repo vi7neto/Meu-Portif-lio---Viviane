@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 :root{
-    --pink: #ec1decd3;
+    --pink: #fc51dfd3;
 }
 
 *{
@@ -10,13 +10,12 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border:none;
-    text-transform: capitalize;
     transition: all .2s linear;
 }
 
 *::selection{
     background: var(--pink);
-    color:#333;
+    color:#425fad;
 }
 
 html{
@@ -29,7 +28,7 @@ html::-webkit-scrollbar{
 }
 
 html::-webkit-scrollbar-track{
-    background: #222;
+    background: #425fad;
 }
 
 html::-webkit-scrollbar-thumb{
@@ -37,7 +36,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background: #111;
+    background: #afebeb;
     overflow-x: hidden;
     padding-left: 35rem;
 }
@@ -49,7 +48,7 @@ section{
 
 .btn{
     padding: .7rem 3rem;
-    background: #333;
+    background: #425fad;
     color: #fff;
     cursor: pointer;
     margin-top: 1rem;
@@ -71,8 +70,8 @@ section{
     margin:0 6rem;
     font-size: 4rem;
     padding: 1rem;
-    border-bottom: .1rem solid #fff4;
-    color: #fff;
+    border-bottom: .1rem solid rgba(82, 217, 235, 0.267);
+    color: rgb(111, 32, 238);
 }
 
 .heading span{
@@ -85,7 +84,7 @@ header{
     z-index: 1000;
     height: 100%;
     width: 35rem;
-    background: #1a1a1a;
+    background: #425fad;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,8 +124,8 @@ header .navbar ul li a{
     display: block;
     padding: 1rem;
     margin:1.5rem 0;
-    background: #333;
-    color: #fff;
+    background: #59a2b4;
+    color: #c9fad5;
     font-size: 2rem;
     border-radius: 5rem;
 }
@@ -156,12 +155,12 @@ header .navbar ul li a:hover{
 
 .home h3{
     font-size: 2.5rem;
-    color: #fff;
+    color: #0a0b75;
 }
 
 .home h1{
     font-size: 5rem;
-    color: #fff;
+    color: #4143ce;
 }
 
 .home h1 span{
@@ -170,7 +169,7 @@ header .navbar ul li a:hover{
 
 .home p{
     font-size: 2rem;
-    color: #eee;
+    color: #0a0b75;
     padding: 1rem 0;
 }
 
@@ -196,7 +195,7 @@ header .navbar ul li a:hover{
 }
 
 .about .row .info h3 span{
-    color: #eee;
+    color: #4143ce;
     padding: 0 .5rem;
 }
 
@@ -253,13 +252,13 @@ header .navbar ul li a:hover{
 
 .education .box-container .box h3{
     font-size: 2rem;
-    color: #fff;
+    color: rgb(26, 79, 192);
     padding-top: 1.5rem;
 }
 
 .education .box-container .box p{
     font-size: 1.4rem;
-    color: #eee;
+    color: rgb(25, 24, 27);
     padding: 1rem 0;
 }
 
@@ -342,9 +341,9 @@ header .navbar ul li a:hover{
     resize: none;
 }
 
-.contact .row .content .title{
+.contact .row .content .title{ 
     text-transform: uppercase;
-    color: #fff;
+    color: #4143ce;
     font-size: 3rem;
     padding-bottom: 2rem;
 }
@@ -353,7 +352,7 @@ header .navbar ul li a:hover{
     display: flex;
     align-items: center;
     font-size: 2rem;
-    color: #eee;
+    color: #12136d;
     padding: 1rem 0;
     font-weight: normal;
 }
